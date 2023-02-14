@@ -12,9 +12,8 @@ const config = {
   },
   social: {
 		facebook: '',
-    dev: 'alexzai007',
     website: 'https://alexzai007.github.io',
-    phone: '+79161202327',
+    phone: '+7(916)120-23-27',
     email: 'alekszajcev906@gmail.com',
     telegram: '',
   },
