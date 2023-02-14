@@ -2,63 +2,75 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    username: 'AlexZai007', // Your GitHub org/user name. (Required)
+    sortBy: 'updates', // stars | updated
+    limit: 7, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    facebook: '',
-    instagram: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.com',
-    phone: '',
+		facebook: '',
+    dev: 'alexzai007',
+    website: 'https://alexzai007.github.io',
+    phone: '+79161202327',
     email: 'arifulalamszn@gmail.com',
+    telegram: '',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'C++',
+    'C#',
+    'Python',
+    'Dart',
+    'Swift',
+    'Lua',
+    'Java',
+    'Django',
+    '.NET',
+    'Flutter',
+		'JavaScript',
+		'React.js',
+		'Node.js',
+		'MySQL',
+		'PostgreSQL',
+		'Git',
+ 		'Docker',
   ],
   experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+		{
+    	company: 'Proton IT',
+    	position: 'CEO + Developer',
+    	from: 'September 2022',
+    	to: 'Present',
+    	companyLink: 'https://proton.pw',
+  	},
+  	{
+    	company: 'Telegram SMM',
+    	position: 'CEO + Developer',
+    	from: 'July 2022',
+    	to: 'Present',
+    	companyLink: 'https://sunset.rp',
+  	},
+  	{
+    	company: 'Proton Crypto',
+    	position: 'CEO',
+    	from: 'September 2022',
+    	to: 'Present',
+    	companyLink: 'https://proton.pw',
+  	},
+  	{
+    	company: 'SunSerRP',
+    	position: 'CEO + Developer',
+    	from: 'July 2019',
+    	to: 'August 2021',
+    	companyLink: 'https://sunset.rp',
+  	},
   ],
   /* certifications: [
     {
@@ -75,12 +87,60 @@ const config = {
       from: '2015',
       to: '2019',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+  	{
+    	institution: 'SamSung Academy',
+    	degree: 'In progress',
+    	from: '2022',
+    	to: '2023',
+  	},
+  	{
+    	institution: 'Плехановский университет',
+    	degree: 'In progress',
+    	from: '2022',
+    	to: '2023',
+  	},
+  	{
+    	institution: 'Физтех-лицей им. П.Л. Капицы',
+    	degree: 'Successfully',
+    	from: '2022',
+    	to: '2022',
+  	},
+  	{
+  		institution: 'Школа молодого инжинера',
+  		degree: 'Successfully',
+  		from: '2022',
+  		to: '2021',
+  	},
+  	{
+    	institution: 'Школа молодого инжинера',
+    	degree: 'Successfully',
+    	from: '2022',
+    	to: '2021',
+  	},
+  	{
+    	institution: 'Школа 2103',
+    	degree: 'Successfully',
+    	from: '2021',
+    	to: '2021',
+ 		},
+  	{
+    	institution: '1596',
+    	degree: 'Successfully',
+    	from: '2021',
+    	to: '2021',
+  	},
+  	{
+    	institution: 'ВШЭ',
+    	degree: 'Successfully',
+    	from: '2021',
+    	to: '2021',
+  	},
+  	{
+    	institution: '1506',
+    	degree: 'In progress',
+    	from: '20014',
+    	to: 'now',
+  	},
   ],
 
   // To hide the `My Projects` section, keep it empty.
